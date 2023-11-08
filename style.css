@@ -1,1 +1,14 @@
-.cabeçalho{background-color: blueviolet;}
+.cabeçalho{background-color: rgb(255, 0, 140);}
+
+nav{position: absolute;
+top: 110px;
+right: 0%;}
+
+nav li{display: inline;
+    margin: 0 0 0 15px;} 
+
+nav a{text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;}
