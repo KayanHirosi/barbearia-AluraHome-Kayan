@@ -1,40 +1,48 @@
-.cabeçalho{background-color: rgb(255, 0, 140);}
-
-.caixa{position: relative;
-width: 940px;
-margin: 0 auto;}
-
-nav{position: absolute;
-top: 110px;
-right: 0;}
-
-nav li{display: inline;
-    margin: 0 0 0 15px;} 
-
-nav a{text-transform: uppercase;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: none;}
-
-.produtos{width: 940px;
-    margin: 0 auto;}
-
-.produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
+#banner {
+	width:100%;
 }
 
-.produtos h2{
-    font-size: 30px;
-    font-weight: bold;
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
-.Descrição{font-size: 18px;
+.titulo-principal {
+	padding-left: 20px;
 }
 
-.preço{font-size: 22px;
-font-weight: bold;
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
 }
